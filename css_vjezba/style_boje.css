@@ -33,7 +33,7 @@ li[title] {
 }
 
 .parent {
-    background-color: red;
+    background-color: rgb(193, 218, 55);
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
@@ -41,9 +41,10 @@ li[title] {
     grid-row-gap: 0px;
     }
     
-    .div1 { 
-        grid-area: 1 / 1 / 4 / 4; 
-       
-    }
-    .div2 { grid-area: 1 / 4 / 4 / 6; }
+    .div1 {grid-area: 1 / 1 / 4 / 4; }
+    .div2 {grid-area: 1 / 4 / 4 / 6; }
     .div3 {grid-area: 4 / 1 / 6 / 6; }
+
+div {
+    border: 1px solid black;
+}
