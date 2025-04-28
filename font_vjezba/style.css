@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'tagesschrift';
+    src:url('Tagesschrift-Regular.ttf') format('truetype');
+}
+
+.tagesschrift {
+    font-family: 'tagesschrift', sans-serif;
+}
