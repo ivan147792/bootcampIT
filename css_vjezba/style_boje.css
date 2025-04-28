@@ -1,7 +1,4 @@
-* {
-    color: black;
 
-}
 body {
     background-color: antiquewhite
 }
@@ -10,14 +7,22 @@ h1, h2 {
     text-align: center;;
 }
 
+ol {
+    text-align: center;
+    list-style-position: inside;
+    list-style-type: none;
+}
 
+ol :last-child {
+    color: black;
+}
 
-/* li {
-    color: red
-} */
+li {
+    color: rgb(255, 0, 0)
+}
 
 .li-item {
-    color: black
+    color: black;
 }
 
 #list-id {
