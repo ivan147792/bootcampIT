@@ -1,0 +1,24 @@
+.container {
+    display: inline-block;
+    width: 40%;
+    background-color: aquamarine;
+}
+
+.container > img {
+    float: left;
+    width: 40%;
+    max-height: 100px;
+    margin-bottom: 20px;
+}
+
+.drugi {
+    float: right;
+    background-color: orange;
+}
+
+.footer {
+    clear: both;
+    background-color: purple;
+    height: 10px;
+    width: 100%;
+}
