@@ -1,0 +1,24 @@
+.container {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#prvi {
+    background-color: red;
+}
+
+#drugi {
+    background-color: rgb(119, 198, 21);
+}
+
+#treci {
+    background-color: rgb(205, 24, 190);
+}
+
+p {
+    margin: 0;
+}
