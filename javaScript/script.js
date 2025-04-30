@@ -1,6 +1,6 @@
 let name = prompt('unesi ime').trim()
-let limit = 140
-if (name.length >= 20) {
+let limit = 20
+if (name.length >= limit) {
     alert(name.slice(0, 20))
 }
 else if (!name) {
